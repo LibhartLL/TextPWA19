@@ -1,0 +1,24 @@
+{
+  "name": "owa19",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start:dev": "concurrently \"cd client && npm run build\" \"cd server && npm run server\" ",
+    "start": "npm run build && cd server && node server.js",
+    "server": "cd server server.js --ignore client",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "client": "cd client && npm start"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "install": "^0.13.0"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  }
+}
