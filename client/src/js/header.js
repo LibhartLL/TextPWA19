@@ -1,22 +1,40 @@
-const header = `
-/*                                                                                                                                      
-         tttt                                                         tttt                                                                   
-      ttt:::t                                                      ttt:::t                                                                   
-      t:::::t                                                      t:::::t                                                                   
-      t:::::t                                                      t:::::t                                                                   
-ttttttt:::::ttttttt        eeeeeeeeeeee  xxxxxxx      xxxxxxxttttttt:::::ttttttt    zzzzzzzzzzzzzzzzz    eeeeeeeeeeee        eeeeeeeeeeee    
-t:::::::::::::::::t      ee::::::::::::ee x:::::x    x:::::x t:::::::::::::::::t    z:::::::::::::::z  ee::::::::::::ee    ee::::::::::::ee  
-t:::::::::::::::::t     e::::::eeeee:::::eex:::::x  x:::::x  t:::::::::::::::::t    z::::::::::::::z  e::::::eeeee:::::ee e::::::eeeee:::::ee
-tttttt:::::::tttttt    e::::::e     e:::::e x:::::xx:::::x   tttttt:::::::tttttt    zzzzzzzz::::::z  e::::::e     e:::::ee::::::e     e:::::e
-      t:::::t          e:::::::eeeee::::::e  x::::::::::x          t:::::t                z::::::z   e:::::::eeeee::::::ee:::::::eeeee::::::e
-      t:::::t          e:::::::::::::::::e    x::::::::x           t:::::t               z::::::z    e:::::::::::::::::e e:::::::::::::::::e 
-      t:::::t          e::::::eeeeeeeeeee     x::::::::x           t:::::t              z::::::z     e::::::eeeeeeeeeee  e::::::eeeeeeeeeee  
-      t:::::t    tttttte:::::::e             x::::::::::x          t:::::t    tttttt   z::::::z      e:::::::e           e:::::::e           
-      t::::::tttt:::::te::::::::e           x:::::xx:::::x         t::::::tttt:::::t  z::::::zzzzzzzze::::::::e          e::::::::e          
-      tt::::::::::::::t e::::::::eeeeeeee  x:::::x  x:::::x        tt::::::::::::::t z::::::::::::::z e::::::::eeeeeeee   e::::::::eeeeeeee  
-        tt:::::::::::tt  ee:::::::::::::e x:::::x    x:::::x         tt:::::::::::ttz:::::::::::::::z  ee:::::::::::::e    ee:::::::::::::e  
-          ttttttttttt      eeeeeeeeeeeeeexxxxxxx      xxxxxxx          ttttttttttt  zzzzzzzzzzzzzzzzz    eeeeeeeeeeeeee      eeeeeeeeeeeeee  
-*/                          
-`;
+import * as React from "react";
 
-export { header };
+// importing material UI components
+import AppBar from "@mui/material/AppBar";
+import Box from "@mui/material/Box";
+import Toolbar from "@mui/material/Toolbar";
+import Typography from "@mui/material/Typography";
+import Button from "@mui/material/Button";
+import IconButton from "@mui/material/IconButton";
+import MenuIcon from "@mui/icons-material/Menu";
+
+export default function Header() {
+return (
+	<AppBar position="static">
+		<Toolbar>
+		{/*Inside the IconButton, we
+		can render various icons*/}
+		<IconButton
+			size="large"
+			edge="start"
+			color="inherit"
+			aria-label="menu"
+			sx={{ mr: 2 }}
+		>
+			{/*This is a simple Menu
+			Icon wrapped in Icon */}
+			<MenuIcon />
+		</IconButton>
+		{/* The Typography component applies
+		default font weights and sizes */}
+
+		<Typography variant="h6"
+			component="div" sx={{ flexGrow: 1 }}>
+			PWAtext Editor
+		</Typography>
+		<Button color="inherit">Login</Button>
+		</Toolbar>
+	</AppBar>
+);
+}

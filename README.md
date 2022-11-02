@@ -17,7 +17,7 @@ Clone the repository listed at the bottom of this Readme file.  Make sure you ha
 Run: npm install i
 Run: npm start
 ### Technologies:
-JavaScript, NodeJS, NPM, Express, Concurrently, Nodemon, Babel, Webpack, IndexedDB
+JavaScript, NodeJS, NPM, Express, Concurrently, Nodemon, Babel, Webpack, IndexedDB, npm material-ui
 
 ### Credits:
 *
