@@ -21,7 +21,7 @@ module.exports = () => {
     plugins: [new HtmlWebpackPlugin({
       template: './index.html',
       title: 'Webpack Plugin Text Editor',
-      favicon: '/favicon.ico',
+      favicon: './client/favicon.ico',
     }),
     new MiniCssExtractPlugin(),
    
