@@ -48,7 +48,7 @@ The Developers GitHub is:
 https://github.com/LibhartLL
 
 The Heroku Deployed Application:
-https://powerful-bayou-79248.herokuapp.com
+https://enigmatic-ravine-36462.herokuapp.com/
 
 The Heroku Repository is:
-https://git.heroku.com/powerful-bayou-79248.git
+https://git.heroku.com/enigmatic-ravine-36462.git
