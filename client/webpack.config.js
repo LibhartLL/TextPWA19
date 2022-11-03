@@ -21,7 +21,7 @@ module.exports = () => {
     plugins: [new HtmlWebpackPlugin({
       template: './index.html',
       title: 'Webpack Plugin Text Editor',
-      favicon: './favicon.ico'
+      favicon: '/favicon.ico',
     }),
     new MiniCssExtractPlugin(),
    
@@ -35,7 +35,7 @@ module.exports = () => {
       inject: true,
       name: 'JATE',
       short_name: 'JATE',
-      description: 'Just another text editor',
+      description: 'Just another text editor TextPWA19',
       background_color: '#225ca3',
       theme_color: '#225ca3',
       start_url: '/',
