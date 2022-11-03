@@ -1,57 +1,54 @@
-# PWA-TextEditor-App
+# Just Another Text Editor TextPWA19
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green)](#license)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An API back end database for an e-commerce site that uses requests. It was built using Node.js, Express.js, MySQL and Sequelize.
-
-## Description 
-This application is essentially a text editor that runs in the browser, meeting the PWA criteria. It uses Node, IndexDB, and JS and allows the use of the text editor online or offline, while saving their information. 
-## Technologies Used
-
-- Node.js
-- Express.js
-- JavaScript
-- IndexedDB
-- Babel
-- Webpack
-
-## Table of Contents
-
-* [Installation](#installation)
-* [Usage](#usage)
+## Table of Contents:
+* [General Information](#general)
+* [Installation Instructions](#installation)
+* [Technologies](#technologies)
 * [Credits](#credits)
 * [License](#license)
-* [Contributing](#contributing)
 
-## Installation
-  1. Run `npm -i` from the root directory to install dependencies for this app. 
-  3. Run `npm run start:dev` or `npm run start` to start the server.
+### General Information:
+This application is essentially a text editor that runs in the browser, meeting the PWA criteria. It uses Node, IndexDB, and JS and allows the use of the text editor online or offline, while saving their information.
 
-## Usage 
-Run `npm run start` to start the server.
+### Installation Instructions:
+Clone the repository listed at the bottom of this Readme file. 
+Run: npm install i
+Run: npm start
+### Technologies:
+JavaScript, NodeJS, NPM, Express, IndexedDB, Babel, Webpack
 
-## Deployed Link
+### Credits:
+*
 
-[Deployed Link](https://still-wildwood-97216.herokuapp.com/)
+### Screenshots or Video Files:
 
+* Google drive link to a video of the User Routes demonstration of this project:
 
-## Credits
-This application was built with the support of the resources and staff of the UCB Full Stack Full Time Coding Bootcamp Summer 2022. 
+[![Google Drive User Routes](./assets/UserRoutes.jpg)](https://drive.google.com/file/d/1V-L3niqanH64Q-bpmjvb14BO66zSJFiS/view)
 
--W3 Schools
+* Google drive link to a video of the Thoughts Routes demonstration of this project:
 
+[![Google Drive Thoughts Routes](./assets/ThoughtRoutes.jpg)](https://drive.google.com/file/d/1YGSEA0Zz_TfuzYUApuiZ6d5OW86JG6x3/view)
 
-## License
+### License
+This project is licensed under:
+License for this project is MIT
 
-```
-MIT License
-```
+#### Footer:
+This project was developed by:
+Lindsay L Libhart
+Libhartinc@gmail.com
 
-</details>
+This projects GitHub Repository is:
+https://github.com/LibhartLL/TextPWA19
 
-## Contributing
-This project isn't currently acccepting contributions.
+The Developers GitHub is:
+https://github.com/LibhartLL
 
-## Questions
-- View my Github [profile](https://github.com/jeffz98)
-- Contact me at my [email](mailto:jeffz98@berkeley.edu)
+The Heroku Deployed Application:
+https://powerful-bayou-79248.herokuapp.com
+
+The Heroku Repository is:
+https://git.heroku.com/powerful-bayou-79248.git
